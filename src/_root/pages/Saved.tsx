@@ -42,7 +42,7 @@ const Saved = () => {
         </ul>
       )} */}
 
-      <Accordion type="single" collapsible className="flex flex-col gap-9 w-full  max-w-5xl">
+      <Accordion type="single" collapsible className="flex flex-col gap-9 w-full max-w-full">
         <AccordionItem value="item-1">
           <AccordionTrigger>Các vấn đề thường gặp khi vận hành máy kiểm code KT07</AccordionTrigger>
           <AccordionContent>
