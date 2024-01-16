@@ -142,7 +142,6 @@ const PostForm = ({ post, action }: PostFormProps) => {
               </FormLabel>
               <FormControl>
                 <Input
-                  placeholder="Art, Expression, Learn"
                   type="text"
                   className="shad-input"
                   {...field}
