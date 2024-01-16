@@ -1,6 +1,7 @@
 import { Models } from "appwrite";
 import { Link } from "react-router-dom";
-import PostStats from "@/components/shared/PostStats";
+
+import { PostStats } from "@/components/shared";
 import { useUserContext } from "@/context/AuthContext";
 
 type GridPostListProps = {
@@ -32,7 +33,10 @@ const GridPostList = ({
             {showUser && (
               <div className="flex items-center justify-start gap-2 flex-1">
                 <img
-                  src={ post.creator.imageUrl || "/assets/icons/profile-placeholder.svg" }
+                  src={
+                    post.creator.imageUrl ||
+                    "/assets/icons/profile-placeholder.svg"
+                  }
                   alt="creator"
                   className="w-8 h-8 rounded-full"
                 />

@@ -1,10 +1,17 @@
-import { Route, Routes, Link, Outlet, useParams, useLocation } from "react-router-dom";
+import {
+  Route,
+  Routes,
+  Link,
+  Outlet,
+  useParams,
+  useLocation,
+} from "react-router-dom";
+
+import { Button } from "@/components/ui";
 import { LikedPosts } from "@/_root/pages";
 import { useUserContext } from "@/context/AuthContext";
-import Loader from "@/components/shared/Loader";
-import { Button } from "@/components/ui/button";
-import GridPostList from "@/components/shared/GridPostList";
 import { useGetUserById } from "@/lib/react-query/queries";
+import { GridPostList, Loader } from "@/components/shared";
 
 interface StabBlockProps {
   value: string | number;
@@ -25,20 +32,21 @@ const Profile = () => {
 
   const { data: currentUser } = useGetUserById(id || "");
 
-  if(!currentUser) {
+  if (!currentUser)
     return (
       <div className="flex-center w-full h-full">
         <Loader />
       </div>
     );
-  }
 
   return (
     <div className="profile-container">
       <div className="profile-inner_container">
         <div className="flex xl:flex-row flex-col max-xl:items-center flex-1 gap-7">
           <img
-            src={ currentUser.imageUrl || "/assets/icons/profile-placeholder.svg" }
+            src={
+              currentUser.imageUrl || "/assets/icons/profile-placeholder.svg"
+            }
             alt="profile"
             className="w-28 h-28 lg:h-36 lg:w-36 rounded-full"
           />
@@ -54,8 +62,6 @@ const Profile = () => {
 
             <div className="flex gap-8 mt-10 items-center justify-center xl:justify-start flex-wrap z-20">
               <StatBlock value={currentUser.posts.length} label="Bài đăng" />
-              {/* <StatBlock value={0} label="Followers" />
-              <StatBlock value={0} label="Following" /> */}
             </div>
 
             <p className="small-medium md:base-medium text-center xl:text-left mt-7 max-w-screen-sm">
@@ -83,7 +89,7 @@ const Profile = () => {
             </div>
             <div className={`${user.id === id && "hidden"}`}>
               <Button type="button" className="shad-button_primary px-8">
-                Follow
+                Thông tin
               </Button>
             </div>
           </div>

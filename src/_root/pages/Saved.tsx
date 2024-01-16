@@ -1,24 +1,9 @@
 import { Models } from "appwrite";
+
+import { GridPostList, Loader } from "@/components/shared";
 import { useGetCurrentUser } from "@/lib/react-query/queries";
-import Loader from "@/components/shared/Loader";
-import GridPostList from "@/components/shared/GridPostList";
-// import { SlCloudDownload } from "react-icons/sl";
-// import { Button } from "@/components/ui";
-// import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const Saved = () => {
-  // const pdfFile = '/assets/tailieubaotri/tailieubaotri_.pdf' 
-  // const pdfFile1 = '/assets/tailieubaotri/giai_bai_tap_oracle.pdf' 
-
-  // const downloadPDF = (url: string) => {
-  //   const fileName = url.split("/").pop();
-  //   const aTag = document.createElement("a");
-  //   aTag.href = url;
-  //   aTag.setAttribute("download", fileName);
-  //   document.body.appendChild(aTag);
-  //   aTag.click();
-  //   aTag.remove();
-  // };
   const { data: currentUser } = useGetCurrentUser();
 
   const savePosts = currentUser?.save
@@ -54,7 +39,6 @@ const Saved = () => {
           )}
         </ul>
       )}
-      
     </div>
   );
 };

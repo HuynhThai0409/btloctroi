@@ -2,16 +2,22 @@ import * as z from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useNavigate, useParams } from "react-router-dom";
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
+
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "@/components/ui/form";
 import { useToast } from "@/components/ui/use-toast";
+import { Textarea, Input, Button } from "@/components/ui";
+import { ProfileUploader, Loader } from "@/components/shared";
+
 import { ProfileValidation } from "@/lib/validation";
 import { useUserContext } from "@/context/AuthContext";
 import { useGetUserById, useUpdateUser } from "@/lib/react-query/queries";
-import Loader from "@/components/shared/Loader";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
-import ProfileUploader from "@/components/shared/ProfileUploader";
 
 const UpdateProfile = () => {
   const { toast } = useToast();
@@ -54,7 +60,7 @@ const UpdateProfile = () => {
 
     if (!updatedUser) {
       toast({
-        title: `Update user failed. Please try again.`,
+        title: `Đã xảy ra lỗi. Xin vui lòng thử lại`,
       });
     }
 
@@ -106,7 +112,7 @@ const UpdateProfile = () => {
               name="name"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="shad-form_label">Name</FormLabel>
+                  <FormLabel className="shad-form_label">Họ tên</FormLabel>
                   <FormControl>
                     <Input type="text" className="shad-input" {...field} />
                   </FormControl>
@@ -120,7 +126,7 @@ const UpdateProfile = () => {
               name="username"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="shad-form_label">Username</FormLabel>
+                  <FormLabel className="shad-form_label">Tên đăng nhập</FormLabel>
                   <FormControl>
                     <Input
                       type="text"

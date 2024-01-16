@@ -1,6 +1,5 @@
-import Loader from "@/components/shared/Loader";
-import UserCard from "@/components/shared/UserCard";
 import { useToast } from "@/components/ui/use-toast";
+import { Loader, UserCard } from "@/components/shared";
 import { useGetUsers } from "@/lib/react-query/queries";
 
 const AllUsers = () => {
@@ -9,7 +8,7 @@ const AllUsers = () => {
   const { data: creators, isLoading, isError: isErrorCreators } = useGetUsers();
 
   if (isErrorCreators) {
-    toast({ title: "Đã xảy ra lỗi." });
+    toast({ title: "Something went wrong." });
     
     return;
   }
@@ -17,7 +16,7 @@ const AllUsers = () => {
   return (
     <div className="common-container">
       <div className="user-container">
-        <h2 className="h3-bold md:h2-bold text-left w-full">Tài khoản</h2>
+        <h2 className="h3-bold md:h2-bold text-left w-full">Người dùng</h2>
         {isLoading && !creators ? (
           <Loader />
         ) : (
