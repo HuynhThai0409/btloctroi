@@ -157,6 +157,8 @@ const PostStats = ({ post, userId }: PostStatsProps) => {
     setIsSaved(true);
   };
 
+  //const handleCommentPost = () => {}
+
   const containerStyles = location.pathname.startsWith("/profile")
     ? "w-full"
     : "";
@@ -179,6 +181,19 @@ const PostStats = ({ post, userId }: PostStatsProps) => {
         />
         <p className="small-medium lg:base-medium">{likes.length}</p>
       </div>
+
+{/* comment */}
+      {/* <div className="flex gap-2 mr-5">
+        <img
+          src="/assets/icons/chat.svg"
+          alt="reply"
+          width={20}
+          height={20}
+          
+          className="cursor-pointer object-contain"
+        />
+        <p className="small-medium lg:base-medium"></p>
+      </div> */}
 
       <div className="flex gap-2">
         <img

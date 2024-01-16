@@ -9,7 +9,7 @@ const AllUsers = () => {
   const { data: creators, isLoading, isError: isErrorCreators } = useGetUsers();
 
   if (isErrorCreators) {
-    toast({ title: "Something went wrong." });
+    toast({ title: "Đã xảy ra lỗi." });
     
     return;
   }
@@ -17,7 +17,7 @@ const AllUsers = () => {
   return (
     <div className="common-container">
       <div className="user-container">
-        <h2 className="h3-bold md:h2-bold text-left w-full">Người dùng</h2>
+        <h2 className="h3-bold md:h2-bold text-left w-full">Tài khoản</h2>
         {isLoading && !creators ? (
           <Loader />
         ) : (

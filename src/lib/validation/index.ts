@@ -26,3 +26,7 @@ export const ProfileValidation = z.object({
   email: z.string().email(),
   bio: z.string(),
 });
+
+export const CommentValidation = z.object({
+  thread: z.string().nonempty().min(3, { message: "Minimum 3 characters." }),
+});

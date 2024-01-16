@@ -7,7 +7,7 @@ export const sidebarLinks = [
     {
       imgURL: "/assets/icons/wallpaper.svg",
       route: "/explore",
-      label: "Khám phá",
+      label: "Tìm kiếm bài viết",
     },
     {
       imgURL: "/assets/icons/people.svg",
@@ -17,7 +17,7 @@ export const sidebarLinks = [
     {
       imgURL: "/assets/icons/bookmark.svg",
       route: "/saved",
-      label: "Đã lưu",
+      label: "Tổng hợp",
     },
     {
       imgURL: "/assets/icons/gallery-add.svg",
@@ -35,12 +35,12 @@ export const sidebarLinks = [
     {
       imgURL: "/assets/icons/wallpaper.svg",
       route: "/explore",
-      label: "Khám phá",
+      label: "Tìm kiếm bài viết",
     },
     {
       imgURL: "/assets/icons/bookmark.svg",
       route: "/saved",
-      label: "Đã lưu",
+      label: "Tổng hợp",
     },
     {
       imgURL: "/assets/icons/gallery-add.svg",

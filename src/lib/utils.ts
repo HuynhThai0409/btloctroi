@@ -14,8 +14,9 @@ export function formatDateString(dateString: string) {
     day: "numeric",
   };
 
+  //en-US
   const date = new Date(dateString);
-  const formattedDate = date.toLocaleDateString("en-US", options);
+  const formattedDate = date.toLocaleDateString("vi-VN", options);
 
   const time = date.toLocaleTimeString([], {
     hour: "numeric",
@@ -37,19 +38,26 @@ export const multiFormatDateString = (timestamp: string = ""): string => {
   const diffInHours: number = diffInMinutes / 60;
   const diffInDays: number = diffInHours / 24;
 
+  const options: Intl.DateTimeFormatOptions = {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  };
+  const formattedDate = date.toLocaleDateString("vi-VN", options);
+
   switch (true) {
     case Math.floor(diffInDays) >= 30:
       return formatDateString(timestamp);
     case Math.floor(diffInDays) === 1:
-      return `${Math.floor(diffInDays)} day ago`;
+      return `${Math.floor(diffInDays)} ngày`;
     case Math.floor(diffInDays) > 1 && diffInDays < 30:
-      return `${Math.floor(diffInDays)} days ago`;
+      return formattedDate;
     case Math.floor(diffInHours) >= 1:
-      return `${Math.floor(diffInHours)} hours ago`;
+      return `${Math.floor(diffInHours)} giờ`;
     case Math.floor(diffInMinutes) >= 1:
-      return `${Math.floor(diffInMinutes)} minutes ago`;
+      return `${Math.floor(diffInMinutes)} phút`;
     default:
-      return "Just now";
+      return "Ngay bây giờ";
   }
 };
 
