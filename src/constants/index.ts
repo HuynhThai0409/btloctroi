@@ -17,7 +17,7 @@ export const sidebarLinks = [
   {
     imgURL: "/assets/icons/bookmark.svg",
     route: "/saved",
-    label: "Đã lưu",
+    label: "Bảng tin bảo trì",
   },
   {
     imgURL: "/assets/icons/gallery-add.svg",
@@ -40,7 +40,7 @@ export const bottombarLinks = [
   {
     imgURL: "/assets/icons/bookmark.svg",
     route: "/saved",
-    label: "Đã lưu",
+    label: "Bảng tin bảo trì",
   },
   {
     imgURL: "/assets/icons/gallery-add.svg",
