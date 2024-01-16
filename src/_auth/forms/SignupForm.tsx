@@ -18,7 +18,7 @@ const SignupForm = () => {
 
   // Queries
   const { mutateAsync: createUserAccount, isPending: isCreatingAccount } = useCreateUserAccount();
-  const { mutateAsync: signInAccount, isPending: isSigningIn } = useSignInAccount();
+  const { mutateAsync: signInAccount, isPending: isSigningInUser } = useSignInAccount();
 
   // 1. Define your form.
   const form = useForm<z.infer<typeof SignupValidation>>({
@@ -132,11 +132,13 @@ const SignupForm = () => {
             )}
           />
           <Button type="submit" className="shad-button_primary">
-              {isCreatingAccount ? (
-                <div className="flex-center gap-2">
-                    <Loader/>Loading...
-                </div>
-              ):"Đăng ký"}
+            {isCreatingAccount || isSigningInUser || isUserLoading ? (
+              <div className="flex-center gap-2">
+                <Loader /> Loading...
+              </div>
+            ) : (
+              "Đăng ký"
+            )}
           </Button>
 
           <p className="text-small-regular text-light-2 text-center mt-2">
