@@ -28,3 +28,49 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+Saved PDF:
+<Accordion type="single" collapsible className="gap-2 w-full max-w-5xl">
+        <AccordionItem value="item-1">
+          {/* Tiêu đề bài viết */}
+          <AccordionTrigger style={{ color: "red" }}>
+            Các vấn đề thường gặp của máy kiểm code KT11 (J5)
+          </AccordionTrigger>
+          {/* Nội dung bài viết */}
+          <AccordionContent>
+            <img src="" alt="" />
+            <Button
+              type="submit"
+              className="shad-button_primary whitespace-nowrap"
+              onClick={() => {downloadPDF(pdfFile)}}
+            >
+              <SlCloudDownload />Tải xuống file PDF đầy đủ
+            </Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-2">
+          <AccordionTrigger>Is it styled?</AccordionTrigger>
+          <AccordionContent>
+            <Button
+              type="submit"
+              className="shad-button_primary whitespace-nowrap"
+              onClick={() => {downloadPDF(pdfFile1)}}
+            >
+              <SlCloudDownload />Tải xuống file PDF đầy đủ
+            </Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-3">
+          <AccordionTrigger>Is it animated?</AccordionTrigger>
+          <AccordionContent>
+            <Button
+              type="submit"
+              className="shad-button_primary whitespace-nowrap"
+              onClick={() => {downloadPDF(pdfFile1)}}
+            >
+              <SlCloudDownload />Tải xuống file PDF đầy đủ
+            </Button>
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
