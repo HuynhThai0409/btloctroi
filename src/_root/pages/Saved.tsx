@@ -42,7 +42,7 @@ const Saved = () => {
         </ul>
       )} */}
 
-      <Accordion type="single" collapsible className="flex flex-col gap-9 w-full max-w-7xl">
+      {/* <Accordion type="single" collapsible className="flex flex-col gap-9 w-full max-w-7xl">
         <AccordionItem value="item-1">
           <AccordionTrigger>Các vấn đề thường gặp khi vận hành máy kiểm code KT06</AccordionTrigger>
           <AccordionContent>
@@ -51,27 +51,26 @@ const Saved = () => {
             <Button><SlCloudDownload className="mr-2 h-4 w-4" />Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-2">
-          <AccordionTrigger>Các vấn đề thường gặp khi vận hành máy kiểm code KT07</AccordionTrigger>
+      </Accordion> */}
+
+      <Accordion type="single" collapsible className="w-full max-w-7xl">
+        <AccordionItem value="item-1">
+          <AccordionTrigger>Vấn đề thường gặp KT07</AccordionTrigger>
           <AccordionContent>
             Chiều về là lúc bến sông quê tôi tấp nập nhất. Đoàn thuyền chở các bà, các chị từ chợ huyện, chợ tỉnh về cập bến. Các bà các chị được đàn con ùa ra đón. Con lớn đỡ cho mẹ gánh hàng. Con nhỏ vòi mẹ chia quà. Tiếng cười nói rộn ràng cả một khúc sông. Rồi ai về nhà nây. Con thuyền neo vào bến đỗ. Đây cũng là lúc bọn trẻ chăn trâu lùa trâu xuống tắm. Bọn trẻ tắm cho trâu, rồi bọn trẻ giỡn nước. Chúng té nước cho nhau. Chúng chơi trò đánh trận. Một đứa kiếm đâu được trái bóng tròn. Thế là chúng ném bóng cho nhau. Một ý kiến được cả bọn chấp nhận: chơi bóng nước. Chúng chia làm hai phe, chuyền bóng cho nhau. Phe nào chuyền được 6 chuyền là thắng. Phe thua phải cõng phe thắng chạy dọc con sông suốt từ bến tắm đến tận gốc đa. Bến sông quê tôi cứ rộn ràng như vậy cho đến lúc mặt trời lặn phía chân ười mới có chút bình lặng.
             <img src="/assets/img-doc/kaizen.jpg" alt="" />
+            <Button><SlCloudDownload className="mr-2 h-4 w-4" />Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-2">
+          <AccordionTrigger>Vấn đề thường gặp KT08</AccordionTrigger>
+          <AccordionContent>
             <Button><SlCloudDownload className="mr-2 h-4 w-4" />Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
-          <AccordionTrigger>Các vấn đề thường gặp khi vận hành máy kiểm code KT08</AccordionTrigger>
+          <AccordionTrigger>Vấn đề thường gặp KT12</AccordionTrigger>
           <AccordionContent>
-            Chiều về là lúc bến sông quê tôi tấp nập nhất. Đoàn thuyền chở các bà, các chị từ chợ huyện, chợ tỉnh về cập bến. Các bà các chị được đàn con ùa ra đón. Con lớn đỡ cho mẹ gánh hàng. Con nhỏ vòi mẹ chia quà. Tiếng cười nói rộn ràng cả một khúc sông. Rồi ai về nhà nây. Con thuyền neo vào bến đỗ. Đây cũng là lúc bọn trẻ chăn trâu lùa trâu xuống tắm. Bọn trẻ tắm cho trâu, rồi bọn trẻ giỡn nước. Chúng té nước cho nhau. Chúng chơi trò đánh trận. Một đứa kiếm đâu được trái bóng tròn. Thế là chúng ném bóng cho nhau. Một ý kiến được cả bọn chấp nhận: chơi bóng nước. Chúng chia làm hai phe, chuyền bóng cho nhau. Phe nào chuyền được 6 chuyền là thắng. Phe thua phải cõng phe thắng chạy dọc con sông suốt từ bến tắm đến tận gốc đa. Bến sông quê tôi cứ rộn ràng như vậy cho đến lúc mặt trời lặn phía chân ười mới có chút bình lặng.
-            <img src="/assets/img-doc/kaizen.jpg" alt="" />
-            <Button><SlCloudDownload className="mr-2 h-4 w-4" />Tải xuống file PDF</Button>
-          </AccordionContent>
-        </AccordionItem>
-        <AccordionItem value="item-4">
-          <AccordionTrigger>Các vấn đề thường gặp khi vận hành máy kiểm code KT09</AccordionTrigger>
-          <AccordionContent>
-            Chiều về là lúc bến sông quê tôi tấp nập nhất. Đoàn thuyền chở các bà, các chị từ chợ huyện, chợ tỉnh về cập bến. Các bà các chị được đàn con ùa ra đón. Con lớn đỡ cho mẹ gánh hàng. Con nhỏ vòi mẹ chia quà. Tiếng cười nói rộn ràng cả một khúc sông. Rồi ai về nhà nây. Con thuyền neo vào bến đỗ. Đây cũng là lúc bọn trẻ chăn trâu lùa trâu xuống tắm. Bọn trẻ tắm cho trâu, rồi bọn trẻ giỡn nước. Chúng té nước cho nhau. Chúng chơi trò đánh trận. Một đứa kiếm đâu được trái bóng tròn. Thế là chúng ném bóng cho nhau. Một ý kiến được cả bọn chấp nhận: chơi bóng nước. Chúng chia làm hai phe, chuyền bóng cho nhau. Phe nào chuyền được 6 chuyền là thắng. Phe thua phải cõng phe thắng chạy dọc con sông suốt từ bến tắm đến tận gốc đa. Bến sông quê tôi cứ rộn ràng như vậy cho đến lúc mặt trời lặn phía chân ười mới có chút bình lặng.
-            <img src="/assets/img-doc/kaizen.jpg" alt="" />
             <Button><SlCloudDownload className="mr-2 h-4 w-4" />Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
