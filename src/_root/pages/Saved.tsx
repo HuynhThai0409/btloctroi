@@ -56,11 +56,11 @@ const Saved = () => {
       <Accordion type="single" collapsible className="w-full max-w-7xl">
         <AccordionItem value="item-1">
           <AccordionTrigger>Vấn đề thường gặp KT07</AccordionTrigger>
-          <AccordionContent>
-            <img style={{ justifyItems: "center" }} src="/assets/img-docBT/HDcodechai.PNG" alt="" />
-            <img style={{ justifyItems: "center" }} src="/assets/img-docBT/HDcodechai1.PNG" alt="" />
-            <Button className="shad-button_primary" ><SlCloudDownload className="mr-2 h-4 w-4" />Tải xuống file PDF</Button>
+          <AccordionContent className="justify-items-center">
+            <img src="/assets/img-docBT/HDcodechai.PNG" alt="" />
+            <img src="/assets/img-docBT/HDcodechai1.PNG" alt="" />
           </AccordionContent>
+          <Button className="shad-button_primary" ><SlCloudDownload className="mr-2 h-4 w-4" />Tải xuống file PDF</Button>
         </AccordionItem>
         <AccordionItem value="item-2">
           <AccordionTrigger>Vấn đề thường gặp KT08</AccordionTrigger>
