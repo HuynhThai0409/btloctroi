@@ -4,9 +4,11 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 // import { GridPostList, Loader } from "@/components/shared";
 // import { useGetCurrentUser } from "@/lib/react-query/queries";
 
+const pdf_file_1 = "/assets/tailieubaotri/HDvanhanhcodechai.pdf"
+const pdf_file_2 = "/assets/tailieubaotri/HDvanhanhcodegoi.pdf"
+
 const Saved = () => {
   //const { data: currentUser } = useGetCurrentUser();
-
   // const savePosts = currentUser?.save
   //   .map((savePost: Models.Document) => ({
   //     ...savePost.post,
@@ -15,6 +17,16 @@ const Saved = () => {
   //     },
   //   }))
   //   .reverse();
+
+  const downloadPDF = (URL: any) => {
+    const filename = URL.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = URL;
+    aTag.setAttribute("download", filename);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  }
 
   return (
     <div className="saved-container">
@@ -70,7 +82,7 @@ const Saved = () => {
             <img src="/assets/img-docBT/HDcodechai/HDcodechai11.png" alt="" />
             <img src="/assets/img-docBT/HDcodechai/HDcodechai12.png" alt="" />
             <img src="/assets/img-docBT/HDcodechai/HDcodechai13.png" alt="" />
-            <Button className="shad-button_primary gap-9">Tải xuống file PDF</Button>
+            <Button className="shad-button_primary" onClick={() => {downloadPDF(pdf_file_1)}}>Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
@@ -90,7 +102,7 @@ const Saved = () => {
             <img src="/assets/img-docBT/HDcodegoi/HDcodegoi11.png" alt="" />
             <img src="/assets/img-docBT/HDcodegoi/HDcodegoi12.png" alt="" />
             <img src="/assets/img-docBT/HDcodegoi/HDcodegoi13.png" alt="" />
-            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+            <Button className="shad-button_primary" onClick={() => {downloadPDF(pdf_file_2)}}>Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
