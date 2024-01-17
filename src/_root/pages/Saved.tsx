@@ -55,7 +55,7 @@ const Saved = () => {
       <Accordion type="single" collapsible className="w-full max-w-7xl">
         <AccordionItem value="item-1">
           <AccordionTrigger>Hướng dẫn vận hành kiểm tra QR Code chai</AccordionTrigger>
-          <AccordionContent className="flex flex-col flex-1 gap-9 w-9/12">
+          <AccordionContent className="flex flex-col flex-1 w-full">
             <img src="/assets/img-docBT/HDcodechai/HDcodechai.PNG" alt="" />
             <img src="/assets/img-docBT/HDcodechai/HDcodechai1.png" alt="" />
             <img src="/assets/img-docBT/HDcodechai/HDcodechai2.png" alt="" />
