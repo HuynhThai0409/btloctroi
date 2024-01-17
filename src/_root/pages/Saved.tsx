@@ -56,7 +56,7 @@ const Saved = () => {
       <Accordion type="single" collapsible className="w-full max-w-7xl">
         <AccordionItem value="item-1">
           <AccordionTrigger>Hướng dẫn vận hành kiểm tra QR Code chai</AccordionTrigger>
-          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-9/12">
             <img src="/assets/img-docBT/HDcodechai/HDcodechai.PNG" alt="" />
             <img src="/assets/img-docBT/HDcodechai/HDcodechai1.png" alt="" />
             <img src="/assets/img-docBT/HDcodechai/HDcodechai2.png" alt="" />
@@ -71,19 +71,19 @@ const Saved = () => {
             <img src="/assets/img-docBT/HDcodechai/HDcodechai11.png" alt="" />
             <img src="/assets/img-docBT/HDcodechai/HDcodechai12.png" alt="" />
             <img src="/assets/img-docBT/HDcodechai/HDcodechai13.png" alt="" />
-            <Button className="shad-button_primary" ><SlCloudDownload className="mr-2 h-4 w-4" />Tải xuống file PDF</Button>
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
           <AccordionTrigger>Vấn đề thường gặp KT08</AccordionTrigger>
-          <AccordionContent>
-            <Button className="shad-button_primary" ><SlCloudDownload className="mr-2 h-4 w-4" />Tải xuống file PDF</Button>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
           <AccordionTrigger>Vấn đề thường gặp KT12</AccordionTrigger>
-          <AccordionContent>
-            <Button className="shad-button_primary" ><SlCloudDownload className="mr-2 h-4 w-4" />Tải xuống file PDF</Button>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
       </Accordion>
