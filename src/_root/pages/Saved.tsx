@@ -75,7 +75,21 @@ const Saved = () => {
         </AccordionItem>
         <AccordionItem value="item-2">
           <AccordionTrigger>Hướng dẫn vận hành kiểm tra QR Code gói</AccordionTrigger>
-          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+          <AccordionContent className="flex flex-col flex-1 w-full">
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi.png" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi1.png" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi2.png" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi3.png" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi4.png" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi5.png" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi6.png" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi7.png" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi8.png" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi9.png" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi10.png" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi11.png" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi12.png" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi13.png" alt="" />
             <Button className="shad-button_primary">Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
