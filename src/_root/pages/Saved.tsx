@@ -56,22 +56,22 @@ const Saved = () => {
       <Accordion type="single" collapsible className="w-full max-w-7xl">
         <AccordionItem value="item-1">
           <AccordionTrigger>Hướng dẫn vận hành kiểm tra QR Code chai</AccordionTrigger>
-          <Button className="shad-button_primary" ><SlCloudDownload className="mr-2 h-4 w-4" />Tải xuống file PDF</Button>
           <AccordionContent>
             <img src="/assets/img-docBT/HDcodechai/HDcodechai.PNG" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai1.PNG" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai2.PNG" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai3.PNG" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai4.PNG" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai5.PNG" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai6.PNG" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai7.PNG" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai8.PNG" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai9.PNG" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai10.PNG" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai11.PNG" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai12.PNG" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai13.PNG" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai1.png" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai2.png" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai3.png" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai4.png" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai5.png" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai6.png" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai7.png" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai8.png" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai9.png" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai10.png" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai11.png" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai12.png" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai13.png" alt="" />
+            <Button className="shad-button_primary" ><SlCloudDownload className="mr-2 h-4 w-4" />Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
