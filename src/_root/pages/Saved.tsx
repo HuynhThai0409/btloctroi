@@ -70,7 +70,7 @@ const Saved = () => {
             <img src="/assets/img-docBT/HDcodechai/HDcodechai11.png" alt="" />
             <img src="/assets/img-docBT/HDcodechai/HDcodechai12.png" alt="" />
             <img src="/assets/img-docBT/HDcodechai/HDcodechai13.png" alt="" />
-            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+            <Button className="shad-button_primary gap-9">Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
