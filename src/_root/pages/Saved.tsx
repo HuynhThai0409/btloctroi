@@ -1,5 +1,4 @@
 //import { Models } from "appwrite";
-import { Loader } from "@/components/shared";
 import { Button } from "@/components/ui";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 // import { GridPostList, Loader } from "@/components/shared";
@@ -109,7 +108,7 @@ const Saved = () => {
         <AccordionItem value="item-3">
           <AccordionTrigger>Vấn đề thường gặp KT12</AccordionTrigger>
           <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
-            <Button className="shad-button_primary"><Loader />Tải xuống file PDF</Button>
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
       </Accordion>
