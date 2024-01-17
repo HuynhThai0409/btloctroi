@@ -1,7 +1,6 @@
 //import { Models } from "appwrite";
 import { Button } from "@/components/ui";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { SlCloudDownload } from "react-icons/sl";
 // import { GridPostList, Loader } from "@/components/shared";
 // import { useGetCurrentUser } from "@/lib/react-query/queries";
 
