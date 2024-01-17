@@ -74,7 +74,7 @@ const Saved = () => {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
-          <AccordionTrigger>Vấn đề thường gặp KT08</AccordionTrigger>
+          <AccordionTrigger>Hướng dẫn vận hành kiểm tra QR Code gói</AccordionTrigger>
           <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
             <Button className="shad-button_primary">Tải xuống file PDF</Button>
           </AccordionContent>
