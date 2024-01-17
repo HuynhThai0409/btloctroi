@@ -57,8 +57,8 @@ const Saved = () => {
         <AccordionItem value="item-1">
           <AccordionTrigger>Vấn đề thường gặp KT07</AccordionTrigger>
           <AccordionContent>
-            <img src="/assets/img-docBT/HDcodechai.png" alt="" />
-            <img src="/assets/img-docBT/HDcodechai1.png" alt="" />
+            <img src="/assets/img-docBT/HDcodechai.PNG" alt="" />
+            <img src="/assets/img-docBT/HDcodechai1.PNG" alt="" />
             <Button className="shad-button_primary" ><SlCloudDownload className="mr-2 h-4 w-4" />Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
