@@ -111,6 +111,108 @@ const Saved = () => {
             <Button className="shad-button_primary">Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
+        <AccordionItem value="item-4">
+          <AccordionTrigger>Vấn đề thường gặp máy gấp chai</AccordionTrigger>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-5">
+          <AccordionTrigger>Vấn đề thường gặp máy DT</AccordionTrigger>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-6">
+          <AccordionTrigger>Vấn đề thường gặp máy KTTL</AccordionTrigger>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-7">
+          <AccordionTrigger>Vấn đề thường gặp máy Robot</AccordionTrigger>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-8">
+          <AccordionTrigger>Vấn đề thường gặp J1</AccordionTrigger>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-9">
+          <AccordionTrigger>Vấn đề thường gặp J2</AccordionTrigger>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-10">
+          <AccordionTrigger>Vấn đề thường gặp J3</AccordionTrigger>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-11">
+          <AccordionTrigger>Vấn đề thường gặp J4</AccordionTrigger>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-12">
+          <AccordionTrigger>Vấn đề thường gặp J5</AccordionTrigger>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-13">
+          <AccordionTrigger>Vấn đề thường gặp J6</AccordionTrigger>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-14">
+          <AccordionTrigger>Vấn đề thường gặp J7</AccordionTrigger>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-15">
+          <AccordionTrigger>Vấn đề thường gặp J8</AccordionTrigger>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-16">
+          <AccordionTrigger>Vấn đề thường gặp J9</AccordionTrigger>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-17">
+          <AccordionTrigger>Vấn đề thường gặp J10</AccordionTrigger>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-18">
+          <AccordionTrigger>Vấn đề thường gặp J11</AccordionTrigger>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-19">
+          <AccordionTrigger>Vấn đề thường gặp J12</AccordionTrigger>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-20">
+          <AccordionTrigger>Vấn đề thường gặp J13</AccordionTrigger>
+          <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
+            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+          </AccordionContent>
+        </AccordionItem>
       </Accordion>
 
     </div>
