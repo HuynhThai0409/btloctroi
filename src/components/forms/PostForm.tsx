@@ -92,6 +92,7 @@ const PostForm = ({ post, action }: PostFormProps) => {
               <FormLabel className="shad-form_label">Nội dung</FormLabel>
               <FormControl>
                 <Textarea
+                  placeholder="Cụm lỗi - Nguyên nhân lỗi - Mô tả chi tiết lỗi - Ảnh hưởng - Cách khắc phục"
                   className="shad-textarea custom-scrollbar"
                   {...field}
                 />
