@@ -125,7 +125,7 @@ const PostForm = ({ post, action }: PostFormProps) => {
             <FormItem>
               <FormLabel className="shad-form_label">Thêm vị trí</FormLabel>
               <FormControl>
-                <Input type="text" className="shad-input" {...field} />
+                <Input placeholder="Nhập mã máy đang sửa chữa" type="text" className="shad-input" {...field} />
               </FormControl>
               <FormMessage className="shad-form_message" />
             </FormItem>
@@ -142,6 +142,7 @@ const PostForm = ({ post, action }: PostFormProps) => {
               </FormLabel>
               <FormControl>
                 <Input
+                  placeholder="tobaotri"
                   type="text"
                   className="shad-input"
                   {...field}

@@ -1,7 +1,7 @@
 import * as z from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; //Link
 
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
@@ -103,14 +103,14 @@ const SigninForm = () => {
             )}
           </Button>
 
-          <p className="text-small-regular text-light-2 text-center mt-2">
+          {/* <p className="text-small-regular text-light-2 text-center mt-2">
             Chưa có tài khoản?
             <Link
               to="/sign-up"
               className="text-primary-500 text-small-semibold ml-1">
               Đăng ký
             </Link>
-          </p>
+          </p> */}
         </form>
       </div>
     </Form>
