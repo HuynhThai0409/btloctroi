@@ -14,9 +14,10 @@ const Topbar = () => {
     if (isSuccess) navigate(0);
   }, [isSuccess]);
 
+  //<div className="flex-between py-4 px-5">
   return (
     <section className="topbar">
-      <div className="flex-between py-4 px-5">
+      <div className="flex-between px-5">
         <Link to="/" className="flex gap-3 items-center">
           <img
             src="/assets/images/logo.png"
