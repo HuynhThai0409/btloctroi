@@ -66,12 +66,20 @@ const Saved = () => {
 
       <Accordion type="single" collapsible className="w-full max-w-7xl">
         <AccordionItem value="item-1">
-          <AccordionTrigger>Một số trang web hữu ích có thể cần cho công việc</AccordionTrigger>
+          <AccordionTrigger>Một số trang web hữu ích cho công việc</AccordionTrigger>
           <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
             <b>1/ iLoveIMG</b>
             iLoveIMG là giải pháp chỉnh sửa hình ảnh trực tuyến một cách đơn giản. Tiếp cận tất cả các công cụ bạn cần để nâng cao hình ảnh một cách dễ dàng, ngay trên web, với độ bảo mật 100%.
             Link: https://www.iloveimg.com/
             <img src="/assets/img-docBT/tienich/iloveimg.PNG" alt="iloveimg" />
+            <b>2/ Remove.bg</b>
+            Remove.bg được biết đến là một trang Web giúp bạn tách nền ra khỏi chủ thể hình ảnh một cách nhanh chóng nhờ công nghệ AI được cài đặt sẵn. Sau khi hình ảnh được tải lên, AI sẽ bắt đầu phân tích đâu là nền đâu là chủ thể, sau đó sẽ thực hiện các bước tự động tách nền.
+            Link: https://www.remove.bg/
+            <img src="/assets/img-docBT/tienich/removebg.PNG" alt="removebg" />
+            <b>3/ Auto Click</b>
+            Auto click là phần mềm hoặc tập lệnh được thiết kế để tự động nhấp chuột. Nói một cách đơn giản, Auto click là một chương trình mô phỏng thao tác nhấp chuột.            Link: https://www.remove.bg/
+            Link: https://download.com.vn/download/tai-gs-auto-clicker-85876
+            <img src="/assets/img-docBT/tienich/autoclick.PNG" alt="autoclick" />
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
