@@ -85,40 +85,27 @@ const Saved = () => {
         <AccordionItem value="item-2">
           <AccordionTrigger>Hướng dẫn vận hành kiểm tra QR Code chai</AccordionTrigger>
           <AccordionContent className="flex flex-col flex-1 w-full">
-            <img src="/assets/img-docBT/HDcodechai/HDtest.PNG" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDtest1.PNG" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai2.png" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai3.png" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai4.png" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai5.png" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai6.png" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai7.png" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai8.png" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai9.png" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai10.png" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai11.png" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai12.png" alt="" />
-            <img src="/assets/img-docBT/HDcodechai/HDcodechai13.png" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai.PNG" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai1.PNG" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai2.PNG" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai3.PNG" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai4.PNG" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai5.PNG" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai6.PNG" alt="" />
+            <img src="/assets/img-docBT/HDcodechai/HDcodechai7.PNG" alt="" />
             <Button className="shad-button_primary" onClick={() => {downloadPDF(pdf_file_1)}}>Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
           <AccordionTrigger>Hướng dẫn vận hành kiểm tra QR Code gói</AccordionTrigger>
           <AccordionContent className="flex flex-col flex-1 w-full">
-            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi.png" alt="" />
-            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi1.png" alt="" />
-            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi2.png" alt="" />
-            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi3.png" alt="" />
-            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi4.png" alt="" />
-            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi5.png" alt="" />
-            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi6.png" alt="" />
-            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi7.png" alt="" />
-            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi8.png" alt="" />
-            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi9.png" alt="" />
-            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi10.png" alt="" />
-            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi11.png" alt="" />
-            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi12.png" alt="" />
-            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi13.png" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi.PNG" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi1.PNG" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi2.PNG" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi3.PNG" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi4.PNG" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi5.PNG" alt="" />
+            <img src="/assets/img-docBT/HDcodegoi/HDcodegoi6.PNG" alt="" />
             <Button className="shad-button_primary" onClick={() => {downloadPDF(pdf_file_2)}}>Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
