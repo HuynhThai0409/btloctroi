@@ -19,8 +19,6 @@ export default function AuthLayout() {
             src="/assets/images/logo.svg"
             alt="logo"
             className="hidden xl:block h-screen w-1/2 object-cover bg-no-repeat"
-            width={300}
-            height={300}
           />
         </>
       )}
