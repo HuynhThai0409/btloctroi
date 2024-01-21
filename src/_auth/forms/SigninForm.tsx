@@ -51,8 +51,7 @@ const SigninForm = () => {
     }
   };
 
-  // pt-5 sm:pt-12
-
+  // className="h3-bold md:h2-bold pt-5 sm:pt-12" 66/ className="flex flex-col gap-5 w-full mt-4">
   return (
     <Form {...form}>
       <div className="sm:w-420 flex-center flex-col">
@@ -64,7 +63,7 @@ const SigninForm = () => {
         </p>
         <form
           onSubmit={form.handleSubmit(handleSignin)}
-          className="flex flex-col gap-5 w-full mt-4">
+          className="flex flex-col gap-5 w-full">
           <FormField
             control={form.control}
             name="email"
