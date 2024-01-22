@@ -66,7 +66,7 @@ const Saved = () => {
 
       <Accordion type="single" collapsible className="w-full max-w-7xl">
         <AccordionItem value="item-1">
-          <AccordionTrigger>Một số trang web hữu ích cho công việc</AccordionTrigger>
+          <AccordionTrigger>Một số trang web hữu ích</AccordionTrigger>
           <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
             <b>1/ iLoveIMG</b>
             iLoveIMG là giải pháp chỉnh sửa hình ảnh trực tuyến một cách đơn giản. Tiếp cận tất cả các công cụ bạn cần để nâng cao hình ảnh một cách dễ dàng, ngay trên web, với độ bảo mật 100%.
