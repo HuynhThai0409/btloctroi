@@ -31,8 +31,8 @@ const LeftSidebar = () => {
           <img
             src="/assets/images/logo1.svg"
             alt="logo"
-            width={200}
-            height={200}
+            width={220}
+            height={220}
           />
         </Link>
 
