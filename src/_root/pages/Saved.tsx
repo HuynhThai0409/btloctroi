@@ -77,7 +77,7 @@ const Saved = () => {
             Link: https://www.remove.bg/
             <img src="/assets/img-docBT/tienich/removebg.PNG" alt="removebg" />
             <b>3/ Auto Click</b>
-            Auto click là phần mềm hoặc tập lệnh được thiết kế để tự động nhấp chuột. Nói một cách đơn giản, Auto click là một chương trình mô phỏng thao tác nhấp chuột.            Link: https://www.remove.bg/
+            Auto click là phần mềm hoặc tập lệnh được thiết kế để tự động nhấp chuột. Nói một cách đơn giản, Auto click là một chương trình mô phỏng thao tác nhấp chuột.
             Link: https://download.com.vn/download/tai-gs-auto-clicker-85876
             <img src="/assets/img-docBT/tienich/autoclick.PNG" alt="autoclick" />
           </AccordionContent>
