@@ -11,7 +11,7 @@ export const SignupValidation = z.object({
 });
 
 export const SigninValidation = z.object({
-  email: z.string().email(),
+  email: z.string().email({message: "Vui lòng nhập email đăng nhập"}),
   password: z.string().min(8, { message: "Mật khẩu phải có ít nhất 8 ký tự." }),
 });
 
