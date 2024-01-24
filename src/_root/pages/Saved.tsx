@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import {Player} from "video-react"
+import "react-html5video/dist/styles.css"
 // import { GridPostList, Loader } from "@/components/shared";
 // import { useGetCurrentUser } from "@/lib/react-query/queries";
 
