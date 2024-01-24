@@ -113,11 +113,11 @@ const Saved = () => {
         <AccordionItem value="item-4">
           <AccordionTrigger>Test</AccordionTrigger>
           <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
-            <Player>
-              <source src="/assets/videoBT/test.mp4"/>
+            <Player> 
+              <source src="/assets/videoBT/test.mp4" type="video/webm"/>
             </Player>
             {/* <Button className="shad-button_primary">Tải xuống file PDF</Button> */}
-          </AccordionContent>
+          </AccordionContent> 
         </AccordionItem>
         {/* <AccordionItem value="item-5">
           <AccordionTrigger>Vấn đề thường gặp máy gấp chai</AccordionTrigger>
