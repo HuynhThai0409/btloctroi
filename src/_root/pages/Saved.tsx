@@ -93,7 +93,7 @@ const Saved = () => {
             <img src="/assets/img-docBT/HDcodechai/HDcodechai5.png" alt="" />
             <img src="/assets/img-docBT/HDcodechai/HDcodechai6.png" alt="" />
             <img src="/assets/img-docBT/HDcodechai/HDcodechai7.png" alt="" />
-            <Button className="shad-button_primary" onClick={() => {downloadPDF(pdf_file_1)}}>Tải xuống file PDF</Button>
+            <Button className="shad-button_primary pt-1 mt-1" onClick={() => {downloadPDF(pdf_file_1)}}>Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
@@ -106,7 +106,7 @@ const Saved = () => {
             <img src="/assets/img-docBT/HDcodegoi/HDcodegoi4.png" alt="" />
             <img src="/assets/img-docBT/HDcodegoi/HDcodegoi5.png" alt="" />
             <img src="/assets/img-docBT/HDcodegoi/HDcodegoi6.png" alt="" />
-            <Button className="shad-button_primary" onClick={() => {downloadPDF(pdf_file_2)}}>Tải xuống file PDF</Button>
+            <Button className="shad-button_primary pt-1 mt-1" onClick={() => {downloadPDF(pdf_file_2)}}>Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
         {/* <AccordionItem value="item-4">
