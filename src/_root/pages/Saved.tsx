@@ -1,8 +1,7 @@
 //import { Models } from "appwrite";
 import { Button } from "@/components/ui";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import {Player} from "video-react"
-import "react-html5video/dist/styles.css"
+import video from "/assets/videoBT/test.mp4"
 // import { GridPostList, Loader } from "@/components/shared";
 // import { useGetCurrentUser } from "@/lib/react-query/queries";
 
@@ -114,9 +113,9 @@ const Saved = () => {
         <AccordionItem value="item-4">
           <AccordionTrigger>Test</AccordionTrigger>
           <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
-            <Player> 
-              <source src="/assets/videoBT/test.mp4" type="video/webm"/>
-            </Player>
+            <video width="750" height="500" controls>
+              <source src={video} type="video/mp4"/>
+            </video>
             {/* <Button className="shad-button_primary">Tải xuống file PDF</Button> */}
           </AccordionContent> 
         </AccordionItem>
