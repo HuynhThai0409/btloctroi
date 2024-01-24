@@ -113,7 +113,7 @@ const Saved = () => {
         <AccordionItem value="item-4">
           <AccordionTrigger>Test</AccordionTrigger>
           <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
-            <video width="750" height="500" controls>
+            <video controls>
               <source src={video} type="video/mp4"/>
             </video>
             {/* <Button className="shad-button_primary">Tải xuống file PDF</Button> */}
