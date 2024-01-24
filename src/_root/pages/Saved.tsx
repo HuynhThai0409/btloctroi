@@ -1,6 +1,7 @@
 //import { Models } from "appwrite";
 import { Button } from "@/components/ui";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import {Player} from "video-react"
 // import { GridPostList, Loader } from "@/components/shared";
 // import { useGetCurrentUser } from "@/lib/react-query/queries";
 
@@ -109,13 +110,16 @@ const Saved = () => {
             <Button className="shad-button_primary rounded-none pt-1 mt-1" onClick={() => {downloadPDF(pdf_file_2)}}>Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
-        {/* <AccordionItem value="item-4">
-          <AccordionTrigger>Vấn đề thường gặp KT12</AccordionTrigger>
+        <AccordionItem value="item-4">
+          <AccordionTrigger>Test</AccordionTrigger>
           <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
-            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+            <Player>
+              <source src="/assets/videoBT/test.mp4"/>
+            </Player>
+            {/* <Button className="shad-button_primary">Tải xuống file PDF</Button> */}
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-5">
+        {/* <AccordionItem value="item-5">
           <AccordionTrigger>Vấn đề thường gặp máy gấp chai</AccordionTrigger>
           <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
             <Button className="shad-button_primary">Tải xuống file PDF</Button>
