@@ -50,7 +50,7 @@ const Home = () => {
       {/* className="grid 2xl:grid-cols-2 gap-6" */}
       <div className="home-creators">
         <h3 className="h3-bold text-light-1">Video</h3>
-        <video controls>
+        <video className="grid 2xl:grid-cols-2 gap-6" controls>
           <source src={video1} type="video/mp4"/>
         </video>
       </div>
