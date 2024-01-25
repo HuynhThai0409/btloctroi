@@ -2,7 +2,7 @@ import { Models } from "appwrite";
 // import { useToast } from "@/components/ui/use-toast";
 import { Loader, PostCard } from "@/components/shared";
 import { useGetRecentPosts, useGetUsers } from "@/lib/react-query/queries";
-import video1 from "/assets/videoBT/test.mp4"
+//import video1 from "/assets/videoBT/test.mp4"
 
 const Home = () => {
   // const { toast } = useToast();
@@ -47,13 +47,13 @@ const Home = () => {
           )}
         </div>
       </div>
-      {/* className="grid 2xl:grid-cols-2 gap-6" */}
-      <div className="home-creators w-40">
+      
+      {/* <div className="home-creators">
         <h3 className="h3-bold text-light-1">Video</h3>
         <video className="grid 2xl:grid-cols-2 gap-6" controls>
           <source src={video1} type="video/mp4"/>
         </video>
-      </div>
+      </div> */}
     </div>
   );
 };
