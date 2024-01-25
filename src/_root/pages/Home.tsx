@@ -3,6 +3,7 @@ import { Models } from "appwrite";
 import { Loader, PostCard } from "@/components/shared";
 import { useGetRecentPosts, useGetUsers } from "@/lib/react-query/queries";
 import video1 from "/assets/videoBT/cliptaodongluc.mp4"
+import video2 from "/assets/videoBT/videohat.mp4"
 
 const Home = () => {
   // const { toast } = useToast();
@@ -52,6 +53,9 @@ const Home = () => {
         <h3 className="h3-bold text-light-1">Video</h3>
         <video className="grid 2xl:grid-cols-2 gap-6" controls>
           <source src={video1} type="video/mp4"/>
+        </video>
+        <video className="grid 2xl:grid-cols-2 gap-6" controls>
+          <source src={video2} type="video/mp4"/>
         </video>
       </div>
     </div>
