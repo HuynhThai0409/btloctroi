@@ -48,7 +48,7 @@ const Home = () => {
         </div>
       </div>
       {/* className="grid 2xl:grid-cols-2 gap-6" */}
-      <div className="home-creators">
+      <div className="home-creators w-40">
         <h3 className="h3-bold text-light-1">Video</h3>
         <video className="grid 2xl:grid-cols-2 gap-6" controls>
           <source src={video1} type="video/mp4"/>
