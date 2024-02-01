@@ -2,8 +2,8 @@ import { Models } from "appwrite";
 // import { useToast } from "@/components/ui/use-toast";
 import { Loader, PostCard } from "@/components/shared";
 import { useGetRecentPosts, useGetUsers } from "@/lib/react-query/queries";
-import video1 from "/assets/videoBT/cliptaodongluc.mp4"
-import video2 from "/assets/videoBT/videohat.mp4"
+// import video1 from "/assets/videoBT/cliptaodongluc.mp4"
+// import video2 from "/assets/videoBT/videohat.mp4"
 
 const Home = () => {
   // const { toast } = useToast();
@@ -49,7 +49,7 @@ const Home = () => {
         </div>
       </div>
       
-      <div className="home-creators">
+      {/* <div className="home-creators">
         <h3 className="h3-bold text-light-1">Video</h3>
         <video className="grid 2xl:grid-cols-2 gap-6" controls>
           <source src={video1} type="video/mp4"/>
@@ -57,7 +57,7 @@ const Home = () => {
         <video className="grid 2xl:grid-cols-2 gap-6" controls>
           <source src={video2} type="video/mp4"/>
         </video>
-      </div>
+      </div> */}
     </div>
   );
 };
