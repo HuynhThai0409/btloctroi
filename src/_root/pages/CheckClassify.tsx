@@ -1,10 +1,17 @@
-
+import {
+    ResizableHandle,
+    ResizablePanel,
+    ResizablePanelGroup,
+  } from "@/components/ui/resizable"
 
 const CheckClassify = () => {
   return (
-    <div className="column-2">
-        <img src="/assets/images/BAOTRI.png" alt="" />
-        <img src="/assets/images/side-imgg.jpg" alt="" />
+    <div>
+        <ResizablePanelGroup direction="horizontal">
+            <ResizablePanel>One</ResizablePanel>
+            <ResizableHandle withHandle />
+            <ResizablePanel>Two</ResizablePanel>
+        </ResizablePanelGroup>
     </div>
   )
 }
