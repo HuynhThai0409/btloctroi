@@ -1,19 +1,18 @@
-import {
-    ResizableHandle,
-    ResizablePanel,
-    ResizablePanelGroup,
-  } from "@/components/ui/resizable"
+import { Calendar } from "@/components/ui/calendar"
+import React from "react"
 
 const CheckClassify = () => {
-  return (
-    <div>
-        <ResizablePanelGroup direction="horizontal">
-            <ResizablePanel>One</ResizablePanel>
-            <ResizableHandle withHandle />
-            <ResizablePanel>Two</ResizablePanel>
-        </ResizablePanelGroup>
-    </div>
-  )
+    const [date, setDate] = React.useState<Date | undefined>(new Date())
+    return (
+        <div>
+            <Calendar
+                mode="single"
+                selected={date}
+                onSelect={setDate}
+                className="rounded-md border shadow"
+            />
+        </div>
+    )
 }
 
 export default CheckClassify
