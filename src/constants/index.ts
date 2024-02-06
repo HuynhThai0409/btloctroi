@@ -26,13 +26,8 @@ export const sidebarLinks = [
   },
   {
     imgURL: "/assets/icons/gallery-add.svg",
-    route: "/check",
-    label: "Kiểm tra",
-  },
-  {
-    imgURL: "/assets/icons/gallery-add.svg",
-    route: "/classify",
-    label: "Phân loại",
+    route: "/check-classify",
+    label: "Kiểm tra & Phân loại",
   },
 ];
 
