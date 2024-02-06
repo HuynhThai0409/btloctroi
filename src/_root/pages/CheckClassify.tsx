@@ -2,7 +2,10 @@
 
 const CheckClassify = () => {
   return (
-    <div>CheckClassify</div>
+    <div className="column-2">
+        <img src="/assets/images/BAOTRI.png" alt="" />
+        <img src="/assets/images/side-imgg.jpg" alt="" />
+    </div>
   )
 }
 
