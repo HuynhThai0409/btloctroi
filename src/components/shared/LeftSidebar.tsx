@@ -26,7 +26,7 @@ const LeftSidebar = () => {
 
   return (
     <nav className="leftsidebar">
-      <div className="flex flex-col gap-9">
+      <div className="flex flex-col gap-11">
         <Link to="/" className="flex gap-3 justify-center items-center">
           <img
             src="/assets/images/logo1.svg"
@@ -54,7 +54,7 @@ const LeftSidebar = () => {
           </Link>
         )}
 
-        <ul className="flex flex-col gap-3.5">
+        <ul className="flex flex-col gap-2">
           {sidebarLinks.map((link: INavLink) => {
             const isActive = pathname === link.route;
 
