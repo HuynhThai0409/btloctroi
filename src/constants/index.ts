@@ -24,6 +24,16 @@ export const sidebarLinks = [
     route: "/create-post",
     label: "Tạo bài viết",
   },
+  {
+    imgURL: "/assets/icons/gallery-add.svg",
+    route: "/check",
+    label: "Kiểm tra",
+  },
+  {
+    imgURL: "/assets/icons/gallery-add.svg",
+    route: "/classify",
+    label: "Phân loại",
+  },
 ];
 
 export const bottombarLinks = [
