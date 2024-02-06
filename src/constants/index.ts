@@ -25,7 +25,7 @@ export const sidebarLinks = [
     label: "Tạo bài viết",
   },
   {
-    imgURL: "/assets/icons/gallery-add.svg",
+    imgURL: "/assets/icons/filter.svg",
     route: "/check-classify",
     label: "Kiểm tra & Phân loại",
   },
