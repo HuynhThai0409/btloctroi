@@ -34,6 +34,9 @@ const CheckClassify = () => {
                     <h3>Dữ liệu 2:</h3>
                     <input type="file" className="form-control" required />
                 </div>
+                <h2 className="rounded-md box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+                    Phân loại dữ liệu
+                </h2>
             </div>
         </div>
     )
