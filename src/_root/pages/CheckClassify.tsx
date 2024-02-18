@@ -24,8 +24,12 @@ const CheckClassify = () => {
                     <h2 className="h3-bold md:h2-bold text-left w-full">Phân loại và so sánh dữ liệu</h2>
                 </div>
                 <div className="flex flex-col gap-9 w-full  max-w-5xl">
+                    <h3>Dữ liệu 1:</h3>
                     <input type="file" className="form-control" required />
-                    <button type="submit" className="shad-button_primary">Tải lên</button>
+                </div>
+                <div className="flex flex-col gap-9 w-full  max-w-5xl">
+                    <h3>Dữ liệu 2:</h3>
+                    <input type="file" className="form-control" required />
                 </div>
             </div>
         </div>
