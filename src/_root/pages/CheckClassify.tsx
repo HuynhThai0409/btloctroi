@@ -25,7 +25,7 @@ const CheckClassify = () => {
                 </div>
                 <div className="flex flex-col gap-9 w-full  max-w-5xl">
                     <input type="file" className="form-control" required />
-                    <button type="submit" className="btn btn-success btn-md">Tải lên</button>
+                    <button type="submit" className="shad-button_primary">Tải lên</button>
                 </div>
             </div>
         </div>
