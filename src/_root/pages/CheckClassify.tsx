@@ -23,9 +23,9 @@ const CheckClassify = () => {
                     />
                     <h2 className="h3-bold md:h2-bold text-left w-full">Phân loại và so sánh dữ liệu</h2>
                 </div>
-                <span className="text-sm rounded-md box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+                <h2 className="rounded-md box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
                     So sánh dữ liệu
-                </span>
+                </h2>
                 <div className="flex flex-col gap-9 w-full  max-w-5xl">
                     <h3>Dữ liệu 1:</h3>
                     <input type="file" className="form-control" required />
