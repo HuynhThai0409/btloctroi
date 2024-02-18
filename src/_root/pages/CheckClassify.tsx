@@ -31,7 +31,7 @@ const CheckClassify = () => {
                     <h3>Dữ liệu 1:</h3>
                     <input type="file" className="form-control" required />
                 </div>
-                <div className="flex flex-col gap-9 w-full max-w-5xl">
+                <div className="flex flex-col gap-9 w-full max-w-5xl float-left">
                     <h3>Dữ liệu 2:</h3>
                     <input type="file" className="form-control" required />
                 </div>
