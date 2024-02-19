@@ -27,13 +27,15 @@ const CheckClassify = () => {
                 <h2 className="rounded-md box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
                     So sánh dữ liệu
                 </h2>
-                <div className="flex flex-col gap-9 w-full max-w-5xl">
-                    <h3>Dữ liệu 1:</h3>
-                    <input type="file" className="form-control" required />
-                </div>
-                <div className="flex flex-col gap-9 w-full max-w-5xl">
-                    <h3>Dữ liệu 2:</h3>
-                    <input type="file" className="form-control" required />
+                <div className="grid gap-4 grid-cols-3 grid-rows-3">
+                    <div className="flex flex-col gap-9 w-full max-w-5xl">
+                        <h3>Dữ liệu 1:</h3>
+                        <input type="file" className="form-control" required />
+                    </div>
+                    <div className="flex flex-col gap-9 w-full max-w-5xl">
+                        <h3>Dữ liệu 2:</h3>
+                        <input type="file" className="form-control" required />
+                    </div>
                 </div>
                 {/* phân loại */}
                 <h2 className="rounded-md box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
