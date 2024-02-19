@@ -20,11 +20,11 @@ const CheckClassify = () => {
                         <h2 className="text-center text-2xl pt-7">So sánh dữ liệu</h2>
                     </span>
                     <div className="flex flex-col gap-9 w-full max-w-5xl">
-                        <h3>Dữ liệu 1:</h3>
+                        <h3>Dữ liệu 1</h3>
                         <input type="file" className="form-control" required />
                     </div>
                     <div className="flex flex-col gap-9 w-full max-w-5xl">
-                        <h3>Dữ liệu 2:</h3>
+                        <h3>Dữ liệu 2</h3>
                         <input type="file" className="form-control" required />
                     </div>
                     <button>So sánh</button>
@@ -35,13 +35,10 @@ const CheckClassify = () => {
                         <h2 className="text-center text-2xl pt-7">Phân loại dữ liệu</h2>
                     </span>
                     <div className="flex flex-col gap-9 w-full max-w-5xl">
-                        <h3>Dữ liệu 1:</h3>
+                        <h3>Dữ liệu</h3>
                         <input type="file" className="form-control" required />
                     </div>
-                    <div className="flex flex-col gap-9 w-full max-w-5xl">
-                        <h3>Dữ liệu 2:</h3>
-                        <input type="file" className="form-control" required />
-                    </div>
+                    
                     <button>Phân loại</button>
                 </div>
             </div>
