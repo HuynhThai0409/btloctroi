@@ -16,7 +16,7 @@ const CheckClassify = () => {
                 {/* so sánh */}
                 
                 <div className="grid grid-cols-3 gap-10">
-                    <span className="rounded-md box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+                    <span className="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
                         <h2 className="text-center text-2xl pt-7">So sánh dữ liệu</h2>
                     </span>
                     <div className="flex flex-col gap-9 w-full max-w-5xl">
@@ -31,7 +31,7 @@ const CheckClassify = () => {
                 </div>
                 {/* phân loại */}
                 <div className="grid grid-cols-3 gap-10">
-                    <span className="rounded-md box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+                    <span className="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
                         <h2 className="text-center text-2xl pt-7">Phân loại dữ liệu</h2>
                     </span>
                     <div className="flex flex-col gap-9 w-full max-w-5xl">
