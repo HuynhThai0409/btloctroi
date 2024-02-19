@@ -17,7 +17,7 @@ const CheckClassify = () => {
                 
                 <div className="grid grid-cols-3 gap-10">
                     <span className="rounded-md box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
-                        <h2 className="flex-1 min-w-[200px] w-full">So sánh dữ liệu</h2>
+                        <h2 className="m-auto">So sánh dữ liệu</h2>
                     </span>
                     <div className="flex flex-col gap-9 w-full max-w-5xl">
                         <h3>Dữ liệu 1:</h3>
