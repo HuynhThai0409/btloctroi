@@ -15,7 +15,7 @@ const CheckClassify = () => {
                 </div>
                 {/* so sánh */}
                 
-                <div className="grid grid-cols-3 gap-10">
+                {/* <div className="grid grid-cols-3 gap-10">
                     <span className="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
                         <h2 className="text-center text-2xl pt-7">So sánh dữ liệu</h2>
                     </span>
@@ -28,9 +28,9 @@ const CheckClassify = () => {
                         <input type="file" className="form-control" required />
                     </div>
                     <button>So sánh</button>
-                </div>
+                </div> */}
                 {/* phân loại */}
-                <div className="grid grid-cols-3 gap-10">
+                {/* <div className="grid grid-cols-3 gap-10">
                     <span className="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
                         <h2 className="text-center text-2xl pt-7">Phân loại dữ liệu</h2>
                     </span>
@@ -40,7 +40,7 @@ const CheckClassify = () => {
                     </div>
                     
                     <button>Phân loại</button>
-                </div>
+                </div> */}
             </div>
         </div>             
     )
