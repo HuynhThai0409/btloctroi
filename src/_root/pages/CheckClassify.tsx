@@ -47,7 +47,7 @@ const CheckClassify = () => {
     const [excelData]=useState([]);
 
     return (
-        <div className="flex flex-1">
+        <div>
             <div className="common-container">
                 <div className="max-w-5xl flex-start gap-3 justify-start w-full">
                     <img
