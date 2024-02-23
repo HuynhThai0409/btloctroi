@@ -1,6 +1,8 @@
 // import React, { useState } from "react";
 // import * as XLSX from 'xlsx';
 
+import { useState } from "react"
+
 const CheckClassify = () => {
 
     // // Trạng thái khi thay đổi
@@ -42,6 +44,8 @@ const CheckClassify = () => {
     // }
     // }
 
+    const [excelData,setExcelData]=useState([]);
+
     return (
         <div className="flex flex-1">
             <div className="common-container">
@@ -54,10 +58,9 @@ const CheckClassify = () => {
                     />
                     <h2 className="h3-bold md:h2-bold text-left w-full">Phân loại và so sánh dữ liệu</h2>
                 </div>
-                <h3>Upload & View Excel Sheets</h3>
-                <div className="wrapper">
-                    
-
+                
+                {/* <div className="wrapper">
+                    <h3>Upload & View Excel Sheets</h3>
                     <form className="form-group custom-form">
                         <input type="file" className="form-control" required />
                         <button type="submit" className="" >Upload</button>
@@ -66,7 +69,30 @@ const CheckClassify = () => {
                     <div className="viewer">
                         View Data
                     </div>
-                </div>                
+                </div>                 */}
+                <div className="text-left flex flex-col">
+                    <div>
+                        <input type="file" />
+                    </div>
+                    <div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Code</th>
+                                    <th>HashCode</th>
+                                    <th>NextCode</th>
+                                    <th>MaxCode</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {
+                                    excelData ? (<></>):
+                                        (<h2>No user data is present</h2>)
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>             
     )
