@@ -44,7 +44,7 @@ const CheckClassify = () => {
     // }
     // }
 
-    const [excelData,setExcelData]=useState([]);
+    const [excelData]=useState([]);
 
     return (
         <div className="flex flex-1">
