@@ -69,7 +69,7 @@ const CheckClassify = () => {
                         View Data
                     </div>
                 </div>                 */}
-                <div className="h3-bold md:h2-bold text-left w-full">
+                <div className="text-left w-full">
                     <div>
                         <input type="file" />
                     </div>
