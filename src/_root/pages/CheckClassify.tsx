@@ -47,7 +47,6 @@ const CheckClassify = () => {
     const [excelData]=useState([]);
 
     return (
-        <div>
             <div className="common-container">
                 <div className="max-w-5xl flex-start gap-3 justify-start w-full">
                     <img
@@ -93,8 +92,7 @@ const CheckClassify = () => {
                         </table>
                     </div>
                 </div>
-            </div>
-        </div>             
+            </div>            
     )
 }
 
