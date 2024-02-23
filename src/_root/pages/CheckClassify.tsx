@@ -55,6 +55,19 @@ const CheckClassify = () => {
                     <h2 className="h3-bold md:h2-bold text-left w-full">Phân loại và so sánh dữ liệu</h2>
                 </div>
             </div>
+            <div className="wrapper">
+                <h3>Upload & View Excel Sheets</h3>
+
+                <form>
+                    <input type="file" required />
+                    <button type="submit">Upload</button>
+                </form>
+
+                <div>
+                    View Data
+                </div>
+
+            </div>
         </div>             
     )
 }
