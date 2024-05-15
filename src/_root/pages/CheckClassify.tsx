@@ -1,10 +1,15 @@
 // import React, { useState } from "react";
+
+import { Button } from "@/components/ui"
+
 // import * as XLSX from 'xlsx';
-
-import { useState } from "react";
-
 const CheckClassify = () => {
-    const [excelData]=useState([]);
+
+const openNewPage = (chosenItem:any) => {
+        //const url = chosenItem === "github" ? "https://github.com/ashishd751/react-excel-renderer" : "https://medium.com/@ashishd751/render-and-display-excel-sheets-on-webpage-using-react-js-af785a5db6a7";
+        const url = chosenItem === "maintenance" ? "https://btloctroi.vercel.app/sign-in" : "https://medium.com/@ashishd751/render-and-display-excel-sheets-on-webpage-using-react-js-af785a5db6a7";
+        window.open(url, '_blank');
+    }
 
     return (
             <div className="common-container">
@@ -17,29 +22,8 @@ const CheckClassify = () => {
                     />
                     <h2 className="h3-bold md:h2-bold text-left w-full">Phân loại và so sánh dữ liệu</h2>
                 </div>
-                <div className="text-left w-full">
-                    <div>
-                        <input type="file"/>
-
-                    </div>
-                    <div>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Code</th>
-                                    <th>HashCode</th>
-                                    <th>NextCode</th>
-                                    <th>MaxCode</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {
-                                    excelData ? (<></>):
-                                        (<h2>No user data is present</h2>)
-                                }
-                            </tbody>
-                        </table>
-                    </div>
+                <div>
+                    <Button className="primary jumbotron-button" onClick={openNewPage.bind(this,"maintenance")}>Maintenance</Button>{' '}
                 </div>
             </div>            
     )

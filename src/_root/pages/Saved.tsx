@@ -119,13 +119,43 @@ const Saved = () => {
             {/* <Button className="shad-button_primary">Tải xuống file PDF</Button> */}
           </AccordionContent> 
         </AccordionItem>
-        {/* <AccordionItem value="item-5">
-          <AccordionTrigger>Vấn đề thường gặp máy gấp chai</AccordionTrigger>
+        <AccordionItem value="item-5">
+          <AccordionTrigger>Setup cổng com & cổng tín hiệu</AccordionTrigger>
           <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
-            <Button className="shad-button_primary">Tải xuống file PDF</Button>
+            <b>1/ KT01</b>
+            <img src="" alt="" />
+            <b>2/ KT02</b>
+            <img src="" alt="" />
+            <b>3/ KT03</b>
+            <img src="" alt="" />
+            <b>4/ KT04</b>
+            <img src="" alt="" />
+            <b>5/ KT05</b>
+            <img src="" alt="" />
+            <b>6/ KT06</b>
+            <img src="" alt="" />
+            <b>7/ KT07</b>
+            <img src="/assets/img-docBT/ParametersCode/KT07" alt="KT07" />
+            <b>8/ KT08</b>
+            <img src="/assets/img-docBT/ParametersCode/KT07" alt="KT08" />
+            <b>9/ KT09</b>
+            <img src="" alt="" />
+            <b>10/ KT10</b>
+            <img src="/assets/img-docBT/ParametersCode/KT07" alt="KT10" />
+            <b>11/ KT11</b>
+            <img src="/assets/img-docBT/ParametersCode/KT07" alt="KT11" />
+            <b>12/ KT12</b>
+            <img src="/assets/img-docBT/ParametersCode/KT07" alt="KT12" />
+            <b>13/ KT13</b>
+            <img src="" alt="" />
+            <b>14/ KT14</b>
+            <img src="" alt="" />
+            <b>15/ KT15</b>
+            <img src="" alt="" />
+            {/* <Button className="shad-button_primary">Tải xuống file PDF</Button> */}
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-6">
+        {/* <AccordionItem value="item-6">
           <AccordionTrigger>Vấn đề thường gặp máy DT</AccordionTrigger>
           <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
             <Button className="shad-button_primary">Tải xuống file PDF</Button>
