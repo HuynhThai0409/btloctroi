@@ -135,17 +135,17 @@ const Saved = () => {
             <b>6/ KT06</b>
             <img src="" alt="" />
             <b>7/ KT07</b>
-            <img src="/assets/img-docBT/ParametersCode/KT07" alt="KT07" />
+            <img src="/assets/img-docBT/ParametersCode/KT07.PNG" alt="KT07" />
             <b>8/ KT08</b>
-            <img src="/assets/img-docBT/ParametersCode/KT07" alt="KT08" />
+            <img src="/assets/img-docBT/ParametersCode/KT08.PNG" alt="KT08" />
             <b>9/ KT09</b>
             <img src="" alt="" />
             <b>10/ KT10</b>
-            <img src="/assets/img-docBT/ParametersCode/KT07" alt="KT10" />
+            <img src="/assets/img-docBT/ParametersCode/KT10.PNG" alt="KT10" />
             <b>11/ KT11</b>
-            <img src="/assets/img-docBT/ParametersCode/KT07" alt="KT11" />
+            <img src="/assets/img-docBT/ParametersCode/KT11.PNG" alt="KT11" />
             <b>12/ KT12</b>
-            <img src="/assets/img-docBT/ParametersCode/KT07" alt="KT12" />
+            <img src="/assets/img-docBT/ParametersCode/KT12.PNG" alt="KT12" />
             <b>13/ KT13</b>
             <img src="" alt="" />
             <b>14/ KT14</b>
