@@ -123,13 +123,13 @@ const Saved = () => {
           <AccordionTrigger>Setup cổng com & cổng tín hiệu</AccordionTrigger>
           <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
             <b>1/ KT01</b>
-            <img src="" alt="KT01" />
+            <img src="" alt="" />
             <b>2/ KT02</b>
             <img src="/assets/img-docBT/ParametersCode/KT02.PNG" alt="KT02" />
             <b>3/ KT03</b>
-            <img src="" alt="KT03" />
+            <img src="" alt="" />
             <b>4/ KT04</b>
-            <img src="" alt="KT04" />
+            <img src="" alt="" />
             <b>5/ KT05</b>
             <img src="/assets/img-docBT/ParametersCode/KT05.PNG" alt="KT05" />
             <b>6/ KT06</b>
@@ -147,7 +147,7 @@ const Saved = () => {
             <b>12/ KT12</b>
             <img src="/assets/img-docBT/ParametersCode/KT12.PNG" alt="KT12" />
             <b>13/ KT13</b>
-            <img src="" alt="KT13" />
+            <img src="" alt="" />
             <b>14/ KT14</b>
             <img src="" alt="KT14" />
             <b>15/ KT15</b>
