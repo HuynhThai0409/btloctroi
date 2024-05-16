@@ -149,7 +149,7 @@ const Saved = () => {
             <b>13/ KT13</b>
             <img src="" alt="" />
             <b>14/ KT14</b>
-            <img src="" alt="" />
+            <img src="" alt="KT14" />
             <b>15/ KT15</b>
             <img src="/assets/img-docBT/ParametersCode/KT15.PNG" alt="KT15" />
             {/* <Button className="shad-button_primary">Tải xuống file PDF</Button> */}
