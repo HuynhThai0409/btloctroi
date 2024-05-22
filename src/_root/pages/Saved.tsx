@@ -131,15 +131,15 @@ const Saved = () => {
             <b>4/ KT04</b>
             <img src="" alt="" />
             <b>5/ KT05</b>
-            <img src="" alt="" />
+            <img src="/assets/img-docBT/ParametersCode/KT05.PNG" alt="KT05" />
             <b>6/ KT06</b>
-            <img src="" alt="" />
+            <img src="/assets/img-docBT/ParametersCode/KT06.PNG" alt="KT06" />
             <b>7/ KT07</b>
             <img src="/assets/img-docBT/ParametersCode/KT07.PNG" alt="KT07" />
             <b>8/ KT08</b>
             <img src="/assets/img-docBT/ParametersCode/KT08.PNG" alt="KT08" />
             <b>9/ KT09</b>
-            <img src="" alt="" />
+            <img src="/assets/img-docBT/ParametersCode/KT09.PNG" alt="KT09" />
             <b>10/ KT10</b>
             <img src="/assets/img-docBT/ParametersCode/KT10.PNG" alt="KT10" />
             <b>11/ KT11</b>
@@ -151,7 +151,7 @@ const Saved = () => {
             <b>14/ KT14</b>
             <img src="" alt="" />
             <b>15/ KT15</b>
-            <img src="" alt="" />
+            <img src="/assets/img-docBT/ParametersCode/KT15.PNG" alt="KT15" />
             {/* <Button className="shad-button_primary">Tải xuống file PDF</Button> */}
           </AccordionContent>
         </AccordionItem>
