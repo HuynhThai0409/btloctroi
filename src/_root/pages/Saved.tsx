@@ -123,13 +123,13 @@ const Saved = () => {
           <AccordionTrigger>Setup cổng com & cổng tín hiệu</AccordionTrigger>
           <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
             <b>1/ KT01</b>
-            <img src="" alt="KT01" />
+            <img src="/assets/img-docBT/ParametersCode/KT01.PNG" alt="KT01" />
             <b>2/ KT02</b>
             <img src="/assets/img-docBT/ParametersCode/KT02.PNG" alt="KT02" />
             <b>3/ KT03</b>
-            <img src="" alt="KT03" />
+            <img src="/assets/img-docBT/ParametersCode/KT03.PNG" alt="KT03" />
             <b>4/ KT04</b>
-            <img src="" alt="KT04" />
+            <img src="/assets/img-docBT/ParametersCode/KT04.PNG" alt="KT04" />
             <b>5/ KT05</b>
             <img src="/assets/img-docBT/ParametersCode/KT05.PNG" alt="KT05" />
             <b>6/ KT06</b>
@@ -147,9 +147,9 @@ const Saved = () => {
             <b>12/ KT12</b>
             <img src="/assets/img-docBT/ParametersCode/KT12.PNG" alt="KT12" />
             <b>13/ KT13</b>
-            <img src="" alt="KT13" />
+            <img src="" alt="" />
             <b>14/ KT14</b>
-            <img src="" alt="KT14" />
+            <img src="/assets/img-docBT/ParametersCode/KT14.PNG" alt="KT14" />
             <b>15/ KT15</b>
             <img src="/assets/img-docBT/ParametersCode/KT15.PNG" alt="KT15" />
             {/* <Button className="shad-button_primary">Tải xuống file PDF</Button> */}
