@@ -149,7 +149,7 @@ const Saved = () => {
             <b>12/ KT12</b>
             <img src="/assets/img-docBT/ParametersCode/KT12.PNG" alt="KT12" />
             <b>13/ KT13</b>
-            <img src="" alt="" />
+            <img src="/assets/img-docBT/ParametersCode/KT13.PNG" alt="KT13" />
             <b>14/ KT14</b>
             <img src="/assets/img-docBT/ParametersCode/KT14.PNG" alt="KT14" />
             <b>15/ KT15</b>
