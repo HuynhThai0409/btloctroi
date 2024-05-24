@@ -1,7 +1,7 @@
 //import { Models } from "appwrite";
 import { Button } from "@/components/ui";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import video from "/assets/videoBT/test.mp4"
+//import video from "/assets/videoBT/test.mp4"
 // import { GridPostList, Loader } from "@/components/shared";
 // import { useGetCurrentUser } from "@/lib/react-query/queries";
 
