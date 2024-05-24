@@ -110,15 +110,17 @@ const Saved = () => {
             <Button className="shad-button_primary rounded-none pt-1 mt-1" onClick={() => {downloadPDF(pdf_file_2)}}>Tải xuống file PDF</Button>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-4">
+
+        {/* <AccordionItem value="item-4">
           <AccordionTrigger>Test</AccordionTrigger>
           <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
             <video controls>
               <source src={video} type="video/mp4"/>
             </video>
             {/* <Button className="shad-button_primary">Tải xuống file PDF</Button> */}
-          </AccordionContent> 
-        </AccordionItem>
+          {/* </AccordionContent> 
+        </AccordionItem> */}
+
         <AccordionItem value="item-5">
           <AccordionTrigger>Setup cổng com & cổng tín hiệu</AccordionTrigger>
           <AccordionContent className="flex flex-col flex-1 gap-9 w-full">
