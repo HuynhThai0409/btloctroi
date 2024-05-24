@@ -154,7 +154,6 @@ const Saved = () => {
             <img src="/assets/img-docBT/ParametersCode/KT14.PNG" alt="KT14" />
             <b>15/ KT15</b>
             <img src="/assets/img-docBT/ParametersCode/KT15.PNG" alt="KT15" />
-            {/* <Button className="shad-button_primary">Tải xuống file PDF</Button> */}
           </AccordionContent>
         </AccordionItem>
         {/* <AccordionItem value="item-6">
