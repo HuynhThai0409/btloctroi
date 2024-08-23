@@ -23,7 +23,8 @@ const openNewPage = (chosenItem:any) => {
                     <h2 className="h3-bold md:h2-bold text-left w-full">Phân loại và so sánh dữ liệu</h2>
                 </div>
                 <div>
-                    <Button className="primary jumbotron-button" onClick={openNewPage.bind(this,"maintenance")}>Maintenance</Button>{' '}
+                    <Button className="primary jumbotron-button">Maintenance</Button>{' '} 
+                    {/* onClick={openNewPage.bind(this,"maintenance")} */}
                 </div>
             </div>            
     )
