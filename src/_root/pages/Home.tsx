@@ -3,7 +3,6 @@ import { Models } from "appwrite";
 import { Loader, PostCard } from "@/components/shared";
 import { useGetRecentPosts, useGetUsers } from "@/lib/react-query/queries";
 import video1 from "/assets/videoBT/cliptaodongluc.mp4"
-import video2 from "/assets/videoBT/videohat.mp4"
 
 const Home = () => {
   // const { toast } = useToast();
