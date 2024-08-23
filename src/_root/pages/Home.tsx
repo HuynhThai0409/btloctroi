@@ -54,9 +54,6 @@ const Home = () => {
         <video className="grid 2xl:grid-cols-2 gap-6" controls>
           <source src={video1} type="video/mp4"/>
         </video>
-        <video className="grid 2xl:grid-cols-2 gap-6" controls>
-          <source src={video2} type="video/mp4"/>
-        </video>
       </div>
     </div>
   );
